@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<title>WelCome To Offical Website Computer Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/navbar-footer.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li class="logo" style="color: #e8e8e8;">COMPUTER Solutions</li>
+				<li class="items"><a href="index.html">Home</a></li>
+				<li class="items"><a href="about.html">About</a></li>
+				<li class="items"><a href="service.html">Services</a></li>
+				<li class="items"><a href="gallery.html">Gallery</a></li>
+				<li class="items"><a href="team.html">Our Team</a></li>
+				<li class="items"><a href="contact.html">Contact Us</a></li>
+				<li class="btn"><a href="#"><i class="fa fa-bars"></i></a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+    <div class="contact">
+        <div class="container">
+            <form action="" class="contact-form">
+                <span class="form-title">
+                    Send Us A Message
+                </span>
+                <label class="label-input" for="first-name">Tell us your name *</label>
+
+                <div class="wrap-input">
+                    <input id="first-name" class="input" type="text" required="required" name="first-name"
+                        placeholder="First name">
+                    <input class="input" type="text" required="required" name="last-name" placeholder="Last name">
+                </div>
+
+                <label class="label-input" for="first-name">Enter Your Email *</label>
+                <div class="wrap-input">
+                    <input id="email" class="input" type="email" name="email" required="required"
+                        placeholder="Eg. example@email.com">
+                </div>
+
+                <label class="label-input" for="first-name">Enter phone number</label>
+                <div class="wrap-input">
+                    <input id="number" class="input" type="number" name="number" placeholder="Eg. +1 800 000000">
+                </div>
+
+                <label class="label-input" for="message">Message *</label>
+                <div class="wrap-input" data-validate="Message is required">
+                    <textarea id="message" class="input-mess" name="message" required="required"
+                        placeholder="Write us a message"></textarea>
+                </div>
+                <div class="btn">
+                    <button class="form-btn">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+            <div class="contact-more">
+                <div class="contact-info">
+                    <div class="size">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="spec">
+                            <span class="txt1">
+                                Address
+                            </span>
+
+                            <span class="txt">
+                                Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="size">
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="spec">
+                            <span class="txt1">
+                                Lets Talk
+                            </span>
+
+                            <span class="txt2">
+                                +1 800 1236879
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="size">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="spec">
+                            <span class="txt1">
+                                General Support
+                            </span>
+
+                            <span class="txt2">
+                                contact@example.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Footer Start  -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					Computer Solutions
+				</div>
+				<div class="social">
+					<a href="">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a href="">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a href="">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a href="">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</div>
+				<div class="details">
+					mob no: 7764936310 , 7279937535
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+	<!-- Start CopyRight  -->
+	<section class="copyright">
+		<p>
+			&copy; 2020 copyright all right reserved
+		</p>
+	</section>
+	<!-- End CopyRight  -->
+
+	<script>
+		$(document).ready(function () {
+			$('.btn').click(function () {
+				$('.items').toggleClass("show");
+				$('ul li').toggleClass("hide");
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>
